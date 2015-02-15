@@ -1,0 +1,95 @@
+[15-Feb-2015 20:32:30 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=%3CYOUR_API_KEY%3E: (400) Bad Request' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/quinotec/public_html/lib/apiclient2/src/Google/Service/Resource.php(227): Google_Client-> in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 20:36:21 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=526842392555-28flrr7rakr08ofmoupm7b9umkhl13o4.apps.googleusercontent.com: (400) Bad Request' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/quinotec/public_html/lib/apiclient2 in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 20:54:28 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=API_KEY: (400) Bad Request' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::execute(Object(Google_Client), Object(Google_Http_Request))
+#5 /home/quinotec/public_html/lib/apiclient2/src/Google/Service/Resource.php(227): Google_Client->execute(Obj in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:04:47 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:05:02 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:11:13 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/quinotec/public_html/lib/apiclient2/examples/service-account.php on line 66
+[15-Feb-2015 21:11:13 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Unable to parse the p12 file.  Is this a .p12 file?  Is the password correct?  OpenSSL error: ' in /home/quinotec/public_html/lib/apiclient2/src/Google/Signer/P12.php:51
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Auth/AssertionCredentials.php(130): Google_Signer_P12->__construct(false, 'notasecret')
+#1 /home/quinotec/public_html/lib/apiclient2/src/Google/Auth/AssertionCredentials.php(107): Google_Auth_AssertionCredentials->makeSignedJwt(Array)
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Auth/OAuth2.php(307): Google_Auth_AssertionCredentials->generateAssertion()
+#3 /home/quinotec/public_html/lib/apiclient2/examples/service-account.php(74): Google_Auth_OAuth2->refreshTokenWithAssertion(Object(Google_Auth_AssertionCredentials))
+#4 {main}
+  thrown in /home/quinotec/public_html/lib/apiclient2/src/Google/Signer/P12.php on line 51
+[15-Feb-2015 21:17:01 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:17:54 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:22:24 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:22:24 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:24:16 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
+[15-Feb-2015 21:27:19 UTC] PHP Fatal error:  Uncaught exception 'Google_Auth_Exception' with message 'Error fetching OAuth2 access token, message: 'redirect_uri_mismatch'' in /home/quinotec/public_html/lib/apiclient2/src/Google/Auth/OAuth2.php:120
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(126): Google_Auth_OAuth2->authenticate('4/_6WJhmo2GffP6...')
+#1 /home/quinotec/public_html/lib/apiclient2/examples/fileupload.php(55): Google_Client->authenticate('4/_6WJhmo2GffP6...')
+#2 {main}
+  thrown in /home/quinotec/public_html/lib/apiclient2/src/Google/Auth/OAuth2.php on line 120
+[15-Feb-2015 22:13:26 UTC] PHP Fatal error:  Uncaught exception 'Google_Service_Exception' with message 'Error calling GET https://www.googleapis.com/books/v1/volumes?q=Henry+David+Thoreau&filter=free-ebooks&key=AIzaSyBtxdwi9KCSBZiHsRdDi9RDGWj2RnH_KuQ: (403) Access Not Configured. The API (Books API) is not enabled for your project. Please use the Google Developers Console to update your configuration.' in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php:111
+Stack trace:
+#0 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(63): Google_Http_REST::decodeHttpResponse(Object(Google_Http_Request), Object(Google_Client))
+#1 [internal function]: Google_Http_REST::doExecute(Object(Google_Client), Object(Google_Http_Request))
+#2 /home/quinotec/public_html/lib/apiclient2/src/Google/Task/Runner.php(172): call_user_func_array(Array, Array)
+#3 /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php(47): Google_Task_Runner->run()
+#4 /home/quinotec/public_html/lib/apiclient2/src/Google/Client.php(564): Google_Http_REST::ex in /home/quinotec/public_html/lib/apiclient2/src/Google/Http/REST.php on line 111
